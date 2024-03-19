@@ -1,0 +1,70 @@
+/* use */
+html {
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+
+    /* Colors */
+    --black: #1F242D;
+    --gray: #272D38;
+    --white: #FFFFFF;
+    --blue: #8EADD5;
+
+    /* Gap */
+    --screen-mov: 180px;
+    --screen-desk: 100px;
+    --small: 40px;
+    --medium: 60px;
+}
+
+body{
+    background-color: var(--blue);
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Size Fonts */
+h1, h2, h3, a, p, span {
+    margin: 0px;
+    color: var(--black);
+}
+
+/* Titles */
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+/* Subtitles */
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+/* paragraphs */
+p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+}
+
+
+@media(min-width: 1024px) {
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+}
